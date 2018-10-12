@@ -17,3 +17,10 @@ that is,
 evaluate <a href="https://www.codecogs.com/eqnedit.php?latex=p(x_{0})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p(x_{0})" title="p(x_{0})" /></a>. 
 Your programming assignment is to implement a parallel prefix alogrithm
 and evaluate this polynomial with degree 63 at a given value of x = 0.5 using processor counts P = 1, 2, 4, 8 and 16.
+
+Compile and Run
+--------
+```
+mpicc 1.c -lm -o 1
+mpirun -n 8 ./1
+```
